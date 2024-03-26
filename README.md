@@ -1,4 +1,4 @@
-# Flask Flask project initialization template for Cookiecutter
+# Flask project initialization template for Cookiecutter
 
 ## Overview
 This template is provided to initialize a Python Flask project based on setuptools.
