@@ -21,7 +21,7 @@ cookiecutter gh:search5/flask-cookiecutter-basic
 ## Item descriptions
 - project_name - Project name. Defaults to my_project
 - version - Program version. Defaults to 0.0
-- using_sqlalchemy - Whether to use SQLAlchemy. y Enable SQLAlchemy and Flask-SQLAlchemy when entered.
+- using_sqlalchemy - Whether to use SQLAlchemy. y Use Enable SQLAlchemy and Flask-SQLAlchemy when entered.
 - using_pytest - Whether to use PyTest. y Use pytest, coverage, and pytest-cov when entered.
 - using_cerberus - Whether to use the cerberus validator.
 - dependencies - program installation dependencies (enter comma separated)
