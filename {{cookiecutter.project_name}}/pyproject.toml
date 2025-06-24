@@ -15,7 +15,7 @@ dependencies = [
     {%- if cookiecutter.using_cerberus %}
     "Cerberus",
     {%- endif %}
-    {%- for item in cookiecutter.dependencies.strip().split(",") %}
+    {%- for item in cookiecutter.dependencies.strip().split(",") if cookiecutter.dependencies %}
     "{{ item.strip() }}",
     {%- endfor %}
 ]
@@ -27,7 +27,7 @@ testing = [
     "coverage",
     "pytest-cov",
     {%- endif %}
-    {%- for item in cookiecutter.testing_dependencies.strip().split(",") %}
+    {%- for item in cookiecutter.testing_dependencies.strip().split(",") if cookiecutter.testing_dependencies %}
     "{{ item.strip() }}",
     {%- endfor %}
 ]
